@@ -61,6 +61,7 @@ Excision And Downlink - Crowd Control.
 Excision - Night Shine ft. Luciana (Bear Grillz Remix)
 Excision - The Paradox
 Excision - Virus
+Excision - Virus
 Exclusion & PsoGnar - Intruder
 Extra Terra - Bass Reaper
 Extra Terra - Holograms
@@ -128,6 +129,7 @@ Low Rider - War
 Lukas Graham - 7 Years (T-Mass Remix)
 Major Lazer - Light It Up (feat. Nyla & Fuse ODG) [Remix]
 Mark Ronson - Uptown Funk ft. Bruno Mars
+Marshmello - LoVe U (Wubbaduck Remix)
 Martin Garrix - Pizza
 Marvin Gaye - Let's Get It On
 Megalodon And Bar9 -Shouting At Traffic.
@@ -154,6 +156,7 @@ Obscenity & Tigers - Grump Squad
 Oliver Heldens - Gecko (Original Mix)
 Omar Varela - Ass Spin
 Omar Varela - Hora Do Medo
+Omar Varela - Scary Hour
 Omar Varela - Walk The Plank
 OMFG - Hello
 Panda Eyes & DatPhoria - Keep Going (Ft. Cozy)
@@ -247,12 +250,9 @@ Virtual Riot - Evil Gameboy
 Virtual Riot - In Your Hands ft. Lisa Rowe
 Virtual Riot - Lunar (Remix by NGBaronAwesomeness): newgrounds.com/audio/listen/813926
 Warez - Fanfare
-Wubbaduck - Pixel Mafia
-Wubbaduck & MONXX - Sleepless Nights
-Excision - Virus
-Marshmello - LoVe U (Wubbaduck Remix)
 Wubbaduck - Monsta
-Omar Varela - Scary Hour
+Wubbaduck & MONXX - Sleepless Nights
+Wubbaduck - Pixel Mafia
 Yunsu - Eye Of The Tiger (Glitch Hop Remix)
 Zedd - Spectrum
 Zikiel - The Last Order
@@ -266,3 +266,4 @@ Zomboy - Terror Squad
 Zomboy - Terror Squad (Bro Safari & Ricky Remedy Remix).
 Zomboy - Young & Dangerous Ft. Kato
 ? - Bingo Players
+
