@@ -4,6 +4,6 @@ main.txt is the list that I'll gradually sync with my [SC](https://soundcloud.co
 
 This is a temporary repo. It'll be deleted when no more tracks are left to move.
 
-Not all tracks will survive, I still need to review them, to check if I still like them.
+Not all tracks will survive, I still need to review them, to check if I like them (there are some tracks I've never heard)
 
 If you have any suggestions, please let me know!
