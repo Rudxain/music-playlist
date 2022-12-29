@@ -9,3 +9,7 @@ Not all tracks will survive, I still need to review them, to check if I like the
 If you have any suggestions, please let me know!
 
 I'm manually (with some G Lens) transcribing **lots** of screenshots into this list, that's why the growth rate will be initially positive
+
+## CONTRIBUTING
+
+Please keep the list sorted! Use "Binary Search Insertion" for efficiency
