@@ -211,6 +211,7 @@ Lockyn - Azure
 Lockyn - Sequence
 Lockyn - Skybound
 Lockyn - Sunset Breeze
+Lockyn - Vapor
 Lockyn - Volt
 Low Rider - War
 Lucas & Steve x Mike Williams x Curbi - Let's Go
