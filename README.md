@@ -10,6 +10,9 @@ If you have any suggestions, please let me know!
 
 I'm transcribing [/tmp/](tmp) to this list, that's why the growth rate will be initially positive
 
+The "ES" files are screenshots taken in "ES File Explorer".
+The working-directory is Geometry Dash's (for Android) [Newgrounds-songs](https://newgrounds.com/audio) folder (yes, the device was rooted). That's why the filenames are NG Audio IDs.
+
 ## CONTRIBUTING
 
 Please keep the list sorted! Use "Binary Search Insertion" for efficiency
