@@ -17,5 +17,7 @@ The working-directory is Geometry Dash's (for Android) [Newgrounds-songs](https:
 
 Please keep the list sorted! Use "Binary Search Insertion" for efficiency
 
+main.csv must be reformatted and merged with main.txt
+
 BTW, if you know who did the "Ookay - Thief" remix, I will really appreciate it!
 I have the feeling that audio will be the last file to survive in this repo, because it's so hard to find the author
