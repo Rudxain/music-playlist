@@ -2,7 +2,7 @@
 
 main.txt is the list that I'll gradually sync with my [SC](https://soundcloud.com/rudxain/sets/music-playlist) & [YT](https://youtube.com/playlist?list=PLUryK3zza2ScWOhbd__X4Ne0xC6TlKiiH) playlists.
 
-main.csv is from a family member. I auto-generated the CSV from a filesystem directory by using a Python script with [EyeD3](https://eyed3.readthedocs.io/en/latest) as a dependency.
+main.csv is from a family member. I auto-generated the CSV from a filesystem directory, by using a Python script with [EyeD3](https://eyed3.readthedocs.io/en/latest) as a dependency.
 
 This is a temporary repo. It'll be deleted when no more tracks are left to move.
 
