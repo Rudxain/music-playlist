@@ -45,11 +45,11 @@ def main(*args: str):
 
 	match args[0]:
 		case 'help': return print_help()
-		case 'check': pass
+		case 'check': print((s for s in filter_main_files()))
 		case 'add': pass
 		case 'sort': pass
-		case _:
-			eprint(f'unrecognized subcmd{args[0]}\nuse "help"')
+		case subcmd:
+			eprint(f'unrecognized subcmd: "{subcmd}"\nuse "help"')
 			sys_exit(1)
 
 
