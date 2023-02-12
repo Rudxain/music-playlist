@@ -46,7 +46,8 @@ def main(*args: str):
 
 	match args[0]:
 		case 'help': return print_help()
-		case 'check': print((s for s in filter_main_files()))
+		# to-do = pass
+		case 'check': pass
 		case 'add': pass
 		case 'sort': pass
 		case subcmd:
