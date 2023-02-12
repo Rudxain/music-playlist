@@ -49,7 +49,7 @@ def main(*args: str):
 		case 'add': pass
 		case 'sort': pass
 		case _:
-			eprint('unrecognized subcmd\nuse "help"')
+			eprint(f'unrecognized subcmd{args[0]}\nuse "help"')
 			sys_exit(1)
 
 
