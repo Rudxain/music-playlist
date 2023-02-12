@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 
 from typing import Final
+from sys import argv
 
-def main():
-	pass
+DEFAULT_STEM: Final = 'main'
+
+
+def main(*args: str):
+	if args[0] == 'sort':
+		pass
+
 
 if '__main__' == __name__:
-	main()
+	main(*argv[1:])
