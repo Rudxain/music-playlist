@@ -41,6 +41,7 @@ def main(*args: str):
 	from sys import exit as sys_exit  # avoid collision with global `exit`
 
 	if len(args) < 1:
+		eprint('no args')
 		return print_help()
 
 	match args[0]:
