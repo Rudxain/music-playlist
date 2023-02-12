@@ -16,9 +16,9 @@ def main(*args: str):
 	from sys import exit as sys_exit # avoid collision with global `exit`
 
 	match args[0]:
-		case 'sort': pass
-		case 'add': pass
 		case 'check': pass
+		case 'add': pass
+		case 'sort': pass
 		case _:
 			eprint('unrecognized subcmd')
 			sys_exit(1)
