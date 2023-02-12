@@ -16,7 +16,9 @@ def print_help():
 	return HELP_TXT
 
 
-def cmp_fn(a: str, b: str):
+def cmp_caseless(a: str, b: str):
+	'''compare strings case-insensitive (except if equal)'''
+
 	# for a stable sort.
 	# this is intentionally case-sensitive, to break ties
 	if a == b:
@@ -28,9 +30,11 @@ def cmp_fn(a: str, b: str):
 	return -1 if a < b else 1
 
 def filter_main_files():
+	'''get an iterator of files whose stem is "main"'''
 	from os import listdir, path as os_path
 	from pathlib import Path
 
+	# order matters: 1st check stem (fast), then syscall (slow)
 	return filter(lambda s: Path(s).stem == 'main' and os_path.isfile(s), listdir())
 
 def main(*args: str):
