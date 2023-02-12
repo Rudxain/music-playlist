@@ -2,14 +2,14 @@
 
 This is a temporary repo. It'll be deleted when no more tracks are left to move.
 
-`main.txt` is the list that I'll gradually sync with my [SC](https://soundcloud.com/rudxain/sets/music-playlist) & [YT](https://youtube.com/playlist?list=PLUryK3zza2ScWOhbd__X4Ne0xC6TlKiiH) playlists.
-
-`main.csv` is from a family member. I auto-generated it from a filesystem directory, by using a Python script with [EyeD3](https://eyed3.readthedocs.io/en/latest) as a dependency.
-
 Not all tracks will survive, I still need to review them, to check if I like them (there are some tracks I've never heard)
 
-The "ES" files are screenshots taken in "ES File Explorer".
-The working-directory is Geometry Dash's (for Android) [Newgrounds audio](https://newgrounds.com/audio) folder (yes, the device was rooted). That's why the filenames are NG Audio IDs.
+## dir tree
+
+- `main.txt` is the list that I'll gradually sync with my [SC](https://soundcloud.com/rudxain/sets/music-playlist) & [YT](https://youtube.com/playlist?list=PLUryK3zza2ScWOhbd__X4Ne0xC6TlKiiH) playlists.
+- `main.csv` is from a family member. I auto-generated it from a filesystem directory, by using a Python script with [EyeD3](https://eyed3.readthedocs.io/en/latest) as a dependency.
+- `manager.py` is an unfinished script that closes [#2](https://github.com/Rudxain/music-playlist/issues/2)
+- `/tmp/` is [explained here](tmp/README.md)
 
 ## CONTRIBUTING
 
