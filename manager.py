@@ -3,7 +3,7 @@
 from typing import Final
 
 def main():
-    pass
+	pass
 
 if '__main__' == __name__:
-    main()
+	main()
