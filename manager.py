@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
 
-from typing import Final, TypeVar, Callable, Literal
+from typing import Final, Callable, Literal
 from sys import argv, stderr
 
-T = TypeVar('T')
 
-
-is_sorted: Final[
-	Callable[[list[T], Callable[[T, T], bool]], bool]
+is_sorted_str: Final[
+	Callable[[list[str], Callable[[str, str], bool]], bool]
 ] = lambda l, cmp: all(cmp(l[i], l[i + 1]) for i in range(len(l) - 1))
 
 
 def eprint(*values: object, **kwargs: object):
-    '''prints to `stderr`'''
-    return print(*values, file=stderr, **kwargs)
+	'''prints to `stderr`'''
+	return print(*values, file=stderr, **kwargs)
 
 
 def print_help():
@@ -48,13 +46,23 @@ def main(*args: str):
 
 	match args[0]:
 		case 'help': return print_help()
-		# to-do = pass
+
 		case 'check':
 			for m in filter_main_files():
 				with open(m) as f:
-					'\n'.split(f.read())
-		case 'add': pass
-		case 'sort': pass
+					if not is_sorted_str(f.read().splitlines(), lambda a, b: cmp_caseless(a, b) == 1):
+						eprint(f'{m} is not sorted')
+
+		case 'add':
+			pass
+
+		case 'sort':
+			for m in filter_main_files():
+				with open(m, 'r') as f:
+					lns = f.read().splitlines()
+					lns.sort(key=cmp_caseless)
+					# to-do
+
 		case subcmd:
 			eprint(f'unrecognized subcmd: "{subcmd}"\nuse "help"')
 			sys_exit(1)
